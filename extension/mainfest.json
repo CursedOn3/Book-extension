@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "Book View Reader",
+    "version": "1.0",
+    "description": "Read PDFs and EPUBs like a book with two-page view.",
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "icon16.png",
+            "48": "icon48.png",
+            "128": "icon128.png"
+        }
+    },
+    "permissions": ["storage", "activeTab", "scripting"],
+    "host_permissions": ["http://127.0.0.1:5000/*"]
+}
